@@ -51,7 +51,7 @@
     }
 
     public function create() {
-        $sql = "INSERT INTO birds (common_name, habitat, food, consveration_id, backyard_tips)";
+        $sql = "INSERT INTO birds (common_name, habitat, food, conservation_id, backyard_tips)";
         $sql .= " VALUES (";
         $sql .= "'" . $this->common_name . "', ";
         $sql .= "'" . $this->habitat . "', ";
